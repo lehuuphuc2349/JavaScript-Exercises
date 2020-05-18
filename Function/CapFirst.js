@@ -17,3 +17,4 @@ const upperCase = (string) => {
   return newArray.join(" ");
 };
 console.log(upperCase("phuc dep trai"));
+console.log(upperCase("phucdeptrai"));
