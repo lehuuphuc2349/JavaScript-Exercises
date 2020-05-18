@@ -20,3 +20,4 @@ function allCombinations(string) {
   console.log(combination.join("\n"));
 }
 allCombinations("phuc");
+allCombinations("cat");
