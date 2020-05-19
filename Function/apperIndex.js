@@ -18,3 +18,4 @@ const CharCount = (string) => {
   return uchars;
 };
 console.log(CharCount("The quick brown fox jumps over the lazy dog"));
+console.log(CharCount("Phuc dep trai"));
