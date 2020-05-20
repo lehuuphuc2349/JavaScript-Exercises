@@ -10,3 +10,4 @@ const exponent = (number, expo) => {
   return result;
 };
 console.log(exponent(2, 3));
+console.log(exponent(5, 1));
