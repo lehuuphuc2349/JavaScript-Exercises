@@ -1,3 +1,3 @@
-# JavaScript-Exercise
+## JavaScript-Exercise
 
 Learn JavaScript exercises
