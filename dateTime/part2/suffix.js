@@ -1,5 +1,4 @@
 const suffix = (date) => {
-  var suffixOrianl = ["st", "nd", "rd", "th"];
   var result = "";
   var day = new Date(date).getDate();
   var stringDay = day.toString();
