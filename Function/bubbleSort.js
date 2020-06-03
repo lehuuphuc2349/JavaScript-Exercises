@@ -28,23 +28,31 @@ console.log(
 
 const sort2Array = (array1, array2) => {
   var reuslt = new Array();
-  var temp = array1.concat
+  var result = array1.concat
     .apply(array1, array2)
     .filter((value) => value % 2 == 0);
-  return temp.sort((a, b) => b - a, [[], [], []]);
+  return reuslt.sort((a, b) => b - a, [[], [], []]);
 };
 console.log(sort2Array([1, 2, 3, 4], [1, 7, 8, 9]));
-
-// const sortArray = (array1, array2) =>
-//   array1.concat
-//     .apply(array1, array2)
-//     .sort((a, b) => b - a)
-//     .filter((value) => value % 2 == 0);
-
-// console.log(sortArray([1, 2, 3, 4, 5, 4, 10, 9, 52, 21]));
 
 // Final
 const resultFinal = (array1, array2) => {
   return sort2Array(array1, array2);
 };
 console.log(resultFinal([1, 2, 5, 6, 3], [2, 5, 6, 11, 52, 44]));
+
+const sort3Array = (array1, array2, array3) => {
+  let temp = array1.concat.apply(array1, array2);
+  let final = temp.concat.apply(temp, array3);
+  return final.sort((a, b) => b - a).filter((value) => value % 2 == 0);
+};
+console.log(
+  sort3Array([1, 88, 2, 5, 6, 3], [2, 5, 6, 11, 52, 44], [42, 5, 2, 1, 100])
+);
+
+const resultFinal1 = (array1, array2, array3) => {
+  return sort3Array(array1, array2, array3);
+};
+console.log(
+  resultFinal1([1, 88, 2, 5, 6, 3], [2, 5, 6, 11, 52, 44], [42, 5, 2, 1, 100])
+);

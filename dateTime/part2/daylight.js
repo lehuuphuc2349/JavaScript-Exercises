@@ -18,3 +18,6 @@ function daylight_saving(date) {
 
 var date = new Date();
 console.log(daylight_saving(date));
+
+let b = 218;
+console.log(b.toString(16));
