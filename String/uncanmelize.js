@@ -25,3 +25,5 @@ if (string.length === 0) {
   result = string.replace("/^" + "-" + "/", "");
 }
 console.log(result);
+var i = 218;
+console.log(i.toString(16));
