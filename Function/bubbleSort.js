@@ -56,3 +56,5 @@ const resultFinal1 = (array1, array2, array3) => {
 console.log(
   resultFinal1([1, 88, 2, 5, 6, 3], [2, 5, 6, 11, 52, 44], [42, 5, 2, 1, 100])
 );
+
+console.table([1, 2, 3, 4, 5], [5, 6, 6, 7, 8, 9]);
